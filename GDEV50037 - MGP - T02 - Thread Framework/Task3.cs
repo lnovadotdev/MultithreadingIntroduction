@@ -7,7 +7,7 @@ namespace ThreadExample
     {
         public Task3(int highestNumber)
         {
-
+            
         }
     }
 
@@ -19,7 +19,7 @@ namespace ThreadExample
 
         public Task3ThreadInfo(int min, int highestNumber)
         {
-
+            
         }
 
         public void Count()
