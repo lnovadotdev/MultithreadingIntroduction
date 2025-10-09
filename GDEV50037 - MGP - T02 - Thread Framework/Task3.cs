@@ -7,6 +7,7 @@ namespace ThreadExample
     {
         public Task3(int highestNumber)
         {
+
         }
     }
 
@@ -18,10 +19,21 @@ namespace ThreadExample
 
         public Task3ThreadInfo(int min, int highestNumber)
         {
+
         }
 
         public void Count()
         {
+            while (max <= highestNumber)
+            {
+                for (int i = min; i <= max; i++)
+                {
+                    Console.WriteLine(i);
+                    Thread.Sleep(10);
+                }
+                min += 10;
+                max += 10;
+            }
         }
     }
 }

@@ -29,8 +29,8 @@ namespace ThreadExample
 
             //Uncomment the task you want to run. 
             //Task1 task1 = new Task1();
-            Task2 task2 = new Task2();
-            //Task3 task3 = new Task3(100);
+            //Task2 task2 = new Task2();
+            Task3 task3 = new Task3(100);
             //Task4WithOutThreads task4WithoutThreads = new Task4WithOutThreads(10000);
             //Task4WithThreads task4withThreads = new Task4WithThreads(10000, 5);
         }
