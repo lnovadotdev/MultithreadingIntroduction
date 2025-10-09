@@ -31,10 +31,11 @@ namespace ThreadExample
 
         public void Counting()
         {
+            int sleepTime = (index + 1) * 500;
             while (true)
             {
                 Console.WriteLine(index);
-                Thread.Sleep((int)((index + 1) * 0.5));
+                Thread.Sleep(sleepTime);
             }
         }
     }
